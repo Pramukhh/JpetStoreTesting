@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="6.04" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Search Functionality" name="Search for pets and verify results" time="5.885">
+<system-out><![CDATA[
+Given I am on the JPetStore home page.......................................passed
+When I search for "Fish"....................................................passed
+Then I should see search results related to pet.............................passed
+And I select a pet from searched result.....................................passed
+And I get the price and description.........................................passed
+Then I add the product to cart..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
